@@ -3,8 +3,10 @@ import { useEffect, useState } from "react"
 import logo from "../assets/devflix.png"
 import searchIcon from "../assets/search.svg"
 
+
 import "./App.css"
 import MovieCard from "../componentes/movieCard/movieCard";
+import Footer from "../componentes/footer/footer";
 
 const App = () => {
     const [searchTerm, setSearchTerm] = useState("");
@@ -53,6 +55,7 @@ const App = () => {
                 <h2>Nenhum filme encontrador😨</h2>
             </div>
         )}
+        <Footer link={"https:github.com.br"}>Karol-ss</Footer>
         </div>
     )
 };
