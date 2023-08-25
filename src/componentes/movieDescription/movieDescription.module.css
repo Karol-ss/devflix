@@ -107,12 +107,24 @@
     .movieModal{
         width: 550px;
     }
+
+    .containerMisc{
+        padding-top: 0;
+    }
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 430px){
     .movieModal{
         width: 320px;
-            margin-top: 2em;
+        margin-top: 2em;
+    }
+
+    .movieInfo img{
+        height: 220px;
+    }
+
+    .containerMisc{
+        padding-top: 3em;
     }
 
     .desc{
